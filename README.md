@@ -10,4 +10,4 @@ This is a basic slack bot that connects to the slack API. This bot reads the mes
 3. Find the plugins/ directory from the official bot repo
 4. Add my motivation plugin
 5. Add your own rtmbot.conf file with API key
-Run your bot: `python3 rtmbot/bin/run_bot`
+Run your bot: `python3 rtmbot/bin/run_rtmbot.py`
