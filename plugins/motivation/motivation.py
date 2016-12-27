@@ -6,10 +6,11 @@ from rtmbot.core import Plugin
 import random
 import re
 from slackclient import SlackClient
+
 outputs = []
 crontable = []
 
-trigger_message = re.compile(r'^!m\s?(\<@(?P<user>\w+)\>)?', re.I)
+trigger_message = re.compile(r'^!!\s?(\<@(?P<user>\w+)\>)?', re.I)
 
 congratulations = [
     "Great job",
