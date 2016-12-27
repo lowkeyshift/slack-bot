@@ -2,3 +2,5 @@ requests
 pyyaml
 websocket-client
 slackclient
+noun-hound
+nltk
